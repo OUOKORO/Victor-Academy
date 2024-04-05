@@ -1,0 +1,148 @@
+
+#ul {
+  list-style-type: none;
+  margin: 12px;
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+  font-family: cursive;
+  background-color: white;
+  width: 80%;
+}
+
+
+#kk {
+    border: 2px solid 
+
+    margin: 100px 100px 150px 80px;
+
+    background-color: lightblue;
+    padding: 25px 100px 25px 100px; 
+}
+
+#vv{
+    margin-left: 100px;
+    margin-left: 100px;
+}
+
+#acc {
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    text-align: center;
+    font-family: "cursive,Times New Roman, serif";
+    font-size: 10vw;
+}
+#x{color:white;
+  background-color: #03224c;
+  text-align: left;
+  }
+#xx{
+  color:rgb(154, 15, 15);
+  text-align: center;
+  border: none Gray 1px 1px;
+}
+#xk{border: 2px double Gray}
+
+#kc{ background-color: gainsboro;
+     color: black;
+     text-align: center;
+   }
+
+#cc{ background-color: gainsboro;
+    color: black;
+    border: 1px solid #03224c;
+    padding: 15px
+  }
+
+#he{
+    background-color: white;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+  }
+
+#body_iaa_blog { 
+  background-color:#03224c}
+
+
+#li {
+    float: left;
+  }
+  
+#li a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+    border-radius: 12px;
+  }
+
+#maphoto {
+  border-radius: 50%;
+  }
+
+#Blog {
+  margin: auto;
+  background-color: #FFF4A3;
+  border: solid yellow;
+  padding: 30px;
+}
+
+
+#Bienvenue { 
+  width: 800px;
+  margin: auto;
+  padding: 5px;
+}
+
+#grid-pagetotale {
+  display: grid;
+  grid-template-columns: 25% 45% 30%;
+  }
+
+#division {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  }
+
+#before-footer {
+  color :white;
+  display: grid;
+  grid-template-columns: 30% 40% 30%;
+  background-color: #11114e;
+  height: 300px;
+  border-radius: 10%;
+}
+
+#entete {
+  background-color: #11114e;
+  color: white; 
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+  height: 50px;
+}
+
+#lestopics { 
+  background-color: #f8f8ff;
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  font-family: cursive;
+}
+
+#image_titre {
+    border-radius: 5%;
+}
+
+#avant_topic {
+  background-color:white;
+  color: black; 
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+  height: 150px;
+  text-align: center;
+  font-family: Lucida Handwriting;
+}
+
+grid-topics {
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+}

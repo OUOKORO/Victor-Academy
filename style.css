@@ -1,0 +1,193 @@
+
+body {
+  width: 100%;
+}
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+  /* pour les ecrans de telephones: */
+  #div1, #div2, #div3, #div4, #entete, #grid-topics, #lestopics, #li { 
+    width: 100%; 
+    border-right:none ;
+    border-left:none ;
+    margin-right: 1px; 
+    margin-left: 1px;
+  }
+  
+  #before-footer, #kc, #entete2 {
+    display: none;
+  }
+
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+   
+} 
+
+
+#ul {
+  list-style-type: none;
+  margin: 5px;
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+  font-family: cursive;
+  background-color: white;
+  width: 73%;
+}
+
+#head {
+  position: fixed;
+}
+
+#kk {
+    border: 2px solid 
+
+    margin: 100px 100px 150px 80px;
+
+    background-color: lightblue;
+    padding: 25px 100px 25px 100px; 
+}
+
+#vv{
+    margin-left: 100px;
+    margin-left: 100px;
+}
+
+#acc {
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    text-align: center;
+    font-family: "cursive,Times New Roman, serif";
+    font-size: 10vw;
+}
+#x{color:white;
+  background-color: #03224c;
+  text-align: left;
+  }
+#xx{
+  color:rgb(154, 15, 15);
+  text-align: center;
+  border: none Gray 1px 1px;
+}
+#xk{border: 2px double Gray}
+
+#kc{ background-color: gainsboro;
+     color: black;
+     text-align: center;
+     width: 300px;
+     font-family: "cursive,Times New Roman, serif";
+     display: grid;
+     grid-template-columns: 32% 36% 32%;
+   }
+
+#cc{ background-color: gainsboro;
+    color: black;
+    border: 1px solid #03224c;
+    padding: 15px
+  }
+
+#he{
+    background-color: white;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+  }
+
+#body_iaa_blog { 
+  background-color:#03224c}
+
+
+#li {
+    float: left;
+  }
+  
+#li a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+    border-radius: 12px;
+  }
+
+#maphoto {
+  border-radius: 50%;
+  }
+
+#Blog {
+  margin: auto;
+  background-color: #FFF4A3;
+  border: solid yellow;
+  padding: 30px;
+}
+
+
+#Bienvenue { 
+  width: 800px;
+  margin: auto;
+  padding: 5px;
+}
+
+#grid-pagetotale {
+  display: grid;
+  grid-template-columns: 25% 45% 30%;
+  }
+
+#division {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  }
+
+#before-footer {
+  color :white;
+  display: grid;
+  grid-template-columns: 30% 40% 30%;
+  background-color: #11114e;
+  height: 300px;
+  border-radius: 10%;
+}
+
+#entete {
+  background-color: #11114e;
+  color: white; 
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+  height: 50px;
+}
+
+#lestopics { 
+  background-color: #f8f8ff;
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  font-family: cursive;
+}
+
+#image_titre {
+    border-radius: 5%;
+}
+
+#avant_topic {
+  background-color:white;
+  color: black; 
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+  height: 150px;
+  text-align: center;
+  font-family: Lucida Handwriting;
+}
+
+grid-topics {
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+}

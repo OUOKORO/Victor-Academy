@@ -1,6 +1,7 @@
 
-body {
+body, header, footer {
   width: 100%;
+  margin-left: 0%;
 }
 
 
@@ -17,9 +18,7 @@ body {
     margin-left: 1px;
   }
   
-  #before-footer, #kc, #entete2 {
-    display: none;
-  }
+  
 
   .col-1 {width: 8.33%;}
   .col-2 {width: 16.66%;}
@@ -39,17 +38,17 @@ body {
 
 #ul {
   list-style-type: none;
-  margin: 5px;
+  margin: 0px;
   padding: 0;
   overflow: hidden;
   text-align: center;
   font-family: cursive;
-  background-color: white;
-  width: 73%;
+  background-color: none;
+  width: 100%;
 }
 
 #head {
-  position: fixed;
+  width: 100%;
 }
 
 #kk {
@@ -77,21 +76,25 @@ body {
   background-color: #03224c;
   text-align: left;
   }
-#xx{
-  color:rgb(154, 15, 15);
-  text-align: center;
-  border: none Gray 1px 1px;
-}
+
 #xk{border: 2px double Gray}
 
 #kc{ background-color: gainsboro;
      color: black;
      text-align: center;
-     width: 300px;
+     width: 100%;
      font-family: "cursive,Times New Roman, serif";
      display: grid;
      grid-template-columns: 32% 36% 32%;
+     margin-bottom: 0px;
+     margin-left: 0px;
    }
+
+#body {
+  width: 100%;
+  background-image: url("img/zir.jpg");
+}
+
 
 #cc{ background-color: gainsboro;
     color: black;
@@ -125,16 +128,11 @@ body {
   border-radius: 50%;
   }
 
-#Blog {
-  margin: auto;
-  background-color: #FFF4A3;
-  border: solid yellow;
-  padding: 30px;
-}
+
 
 
 #Bienvenue { 
-  width: 800px;
+  width: 100%;
   margin: auto;
   padding: 5px;
 }
@@ -187,7 +185,30 @@ body {
   font-family: Lucida Handwriting;
 }
 
-grid-topics {
+#grid-topics {
   display: grid;
   grid-template-columns: 20% 60% 20%;
+}
+
+#entete-header {
+  color:white ; 
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+  text-align: center;
+  height: 300px;
+  width:100%;
+  background-image: url(img/industries-agroalimentaires-700x400.png); width: 100%;
+  filter: brightness(0.6);
+}
+
+#entete2 {
+  background-color: #354A21;
+  color: whitesmoke; 
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+  height: 90px;
+  width: 100%;
+  position:fixed;
+  text-align: center;
+  margin-top: 10px;
 }
